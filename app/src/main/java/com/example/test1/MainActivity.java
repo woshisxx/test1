@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         list=findViewById(R.id.list);
         data.add(new User("sxx1","女"));
         data.add(new User("sxx2","男"));
+        data.add(new User("sxx3","女"));
         list.setAdapter(new MyAdapter(this,getLayoutInflater(),R.layout.item_list,BR.user,data));
     }
 }
